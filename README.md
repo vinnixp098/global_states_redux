@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# React Redux Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é mais um primeiro utilizando React, criado para fornecer previsões de clima através de uma API. O projeto foi gerado usando o Vite, pois oferece um ambiente de desenvolvimento rápido e moderno. No gerenciamento da aplicação, utilizei a biblioteca Redux Toolkit, já que ela facilita a transmissão dos dados entre as views.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Framework JavaScript para construção de interfaces de usuário.
+- **Typescript**: Linguagem que fornece a tipagem dos dados.
+- **Vite**: Ferramenta de build e desenvolvimento rápida e leve.
+- **Redux Toolkit**: Biblioteca para realizar o gerenciamento de estado da aplicação.
+- **CSS Module**: Utilizado para estilizar o projeto de forma personalizada.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Preenchimento de formulário.
+- Visualização dos dados preenchidos.
+- Edição dos dados de usuário.
 
-- Configure the top-level `parserOptions` property like this:
+## Sobre o Projeto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Este projeto representa o início de minha jornada no desenvolvimento com React. É o primeiro de muitos projetos que planejo desenvolver utilizando este framework poderoso. A ideia é explorar e aprender cada vez mais sobre React e suas possibilidades, construindo aplicações web interativas e responsivas.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Como Executar o Projeto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone o repositório:
+   ```bash
+    git clone https://github.com/vinnixp098/weather-api-react.git
+   
+2. Navegue até o diretório:
+   ```bash
+     cd 
+   
+3. Instale as depenências:
+   ```bash
+     npm install
+   
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+     npm run dev
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+5. Abra seu navegador e acesse http://localhost:3000 para visualizar a aplicação.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com o projeto! Você pode abrir issues, sugerir melhorias ou enviar pull requests.
