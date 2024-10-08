@@ -1,6 +1,6 @@
 # React Redux Project
 
-Este é mais um primeiro utilizando React, criado para fornecer previsões de clima através de uma API. O projeto foi gerado usando o Vite, pois oferece um ambiente de desenvolvimento rápido e moderno. No gerenciamento da aplicação, utilizei a biblioteca Redux Toolkit, já que ela facilita a transmissão dos dados entre as views.
+Este é mais um projeto utilizando React, mas dessa vez resolvi utilizar o Redux Toolkit. O projeto foi gerado usando o Vite, pois oferece um ambiente de desenvolvimento rápido e moderno. No gerenciamento da aplicação, utilizei a biblioteca Redux Toolkit, já que ela facilita a transmissão dos dados entre as views.
 
 ## Tecnologias Utilizadas
 
@@ -16,19 +16,15 @@ Este é mais um primeiro utilizando React, criado para fornecer previsões de cl
 - Visualização dos dados preenchidos.
 - Edição dos dados de usuário.
 
-## Sobre o Projeto
-
-Este projeto representa o início de minha jornada no desenvolvimento com React. É o primeiro de muitos projetos que planejo desenvolver utilizando este framework poderoso. A ideia é explorar e aprender cada vez mais sobre React e suas possibilidades, construindo aplicações web interativas e responsivas.
-
 ## Como Executar o Projeto
 
 1. Clone o repositório:
    ```bash
-    git clone https://github.com/vinnixp098/weather-api-react.git
+    git clone https://github.com/vinnixp098/react-redux-project.git
    
 2. Navegue até o diretório:
    ```bash
-     cd 
+     cd react-redux-project
    
 3. Instale as depenências:
    ```bash
@@ -42,4 +38,4 @@ Este projeto representa o início de minha jornada no desenvolvimento com React.
 
 ## Contribuições
 
-Sinta-se à vontade para contribuir com o projeto! Você pode abrir issues, sugerir melhorias ou enviar pull requests.
+Sinta-se à vontade para contribuir com o projeto! Você pode abrir issues, sugerir melhorias ou fazer pull requests.
